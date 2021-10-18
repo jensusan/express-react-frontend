@@ -3,8 +3,8 @@ function Header(props) {
     const navStyle = {
         display: "flex",
         justifyContent: "space-around",
-        border: "3px solid black",
-        padding: "8px",
+        border: "5px solid #03dffc",
+        padding: "15px",
         width: "90%",
         margin: "auto",
     }

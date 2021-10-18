@@ -1,4 +1,5 @@
-import {useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
+import Content from "../components/css/Projects-styles"
 function Projects(props) {
     const [projects, setProjects] = useState(null);
     const getProjectsData = async () => {
@@ -11,16 +12,18 @@ function Projects(props) {
 
     const loaded = () => {
         return projects.map((project) => (
-            <div>
+            <Content>
                 <h1>{project.name}</h1>
-                <img src={project.image} />
+                <img src={project.image} alt=""/>
+                <div>
                 <a href={project.git}>
                     <button>Github</button>
                 </a>
                 <a href={project.live}>
                     <button>live site</button>
                 </a>
-            </div>
+                </div>
+            </Content>
         ))
     }
     

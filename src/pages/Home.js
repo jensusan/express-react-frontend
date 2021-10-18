@@ -1,6 +1,7 @@
 function Home(props) {
     return(
-        <h1>HOME</h1>
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        
     )
   }
   
