@@ -2,3 +2,13 @@
   text-align: center;
 }
 
+.footer {
+  margin-top: 150px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10%;
+}
+

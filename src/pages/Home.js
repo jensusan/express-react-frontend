@@ -1,7 +1,16 @@
 function Home(props) {
     return(
-        <h1>WELCOME TO MY PORTFOLIO</h1>
-        
+        <div>
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>React</li>
+                <li>Express</li>
+            </ul>
+        </div>
     )
   }
   
